@@ -1,0 +1,23 @@
+{
+  "name": "lectura-rapida-2412",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "echo 'Build successful: Static files ready for deployment'"
+},
+"engines": {
+  "node": "20"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/esiodavid/lectura-rapida-2412.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/esiodavid/lectura-rapida-2412/issues"
+  },
+  "homepage": "https://github.com/esiodavid/lectura-rapida-2412#readme"
+}
