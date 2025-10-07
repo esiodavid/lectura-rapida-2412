@@ -34,7 +34,7 @@
         \"relation\": [\"delegate_permission/common.handle_all_urls\"],
         \"target\": {
             \"namespace\": \"web\",
-            \"site\": \"https://lectura-rapida-2412--lectura-rapida-2412.europe-west4.hosted.app\"
+            \"site\": \"https://lectura-rapida-2412--lectura-rapida-2412.europe-west4.hosted.app/\"
         }
     }]
     

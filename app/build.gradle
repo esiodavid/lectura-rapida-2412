@@ -21,12 +21,12 @@ plugins {
 }
 
 def twaManifest = [
-    applicationId: 'com.esiodavid.lecturaveloz',
-    hostName: 'lectura-rapida-2412--lectura-rapida-2412.europe-west4.hosted.app', // The domain being opened in the TWA.
+    applicationId: 'com.esiodavid.LecturaRapida',
+    hostName: 'lectura-rapida-2412--lectura-rapida-2412.europe-west4.hosted.app/', // The domain being opened in the TWA.
     launchUrl: '/', // The start path for the TWA. Must be relative to the domain.
-    name: 'LecturaVeloz', // The application name.
-    launcherName: 'lectorVeloz', // The name shown on the Android Launcher.
-    themeColor: '#FFFFFF', // The color used for the status bar.
+    name: 'LecturaRápida', // The application name.
+    launcherName: 'LectorVelóz', // The name shown on the Android Launcher.
+    themeColor: '#000000', // The color used for the status bar.
     themeColorDark: '#000000', // The color used for the dark status bar.
     navigationColor: '#000000', // The color used for the navigation bar.
     navigationColorDark: '#000000', // The color used for the dark navbar.
@@ -52,9 +52,9 @@ def twaManifest = [
 
 android {
     compileSdkVersion 36
-    namespace "com.esiodavid.lecturaveloz"
+    namespace "com.esiodavid.LecturaRapida"
     defaultConfig {
-        applicationId "com.esiodavid.lecturaveloz"
+        applicationId "com.esiodavid.LecturaRapida"
         minSdkVersion 21
         targetSdkVersion 35
         versionCode 1
@@ -76,12 +76,12 @@ android {
             // The URL the Web Manifest for the Progressive Web App that the TWA points to. This
             // is used by Chrome OS and Meta Quest to open the Web version of the PWA instead of
             // the TWA, as it will probably give a better user experience for non-mobile devices.
-            resValue "string", "webManifestUrl", 'https://github.com/esiodavid/lectura-rapida-2412.git/manifest.json'
+            resValue "string", "webManifestUrl", 'https://lectura-rapida-2412--lectura-rapida-2412.europe-west4.hosted.app/manifest.json'
         
 
         
             // This is used by Meta Quest.
-            resValue "string", "fullScopeUrl", 'https://github.com/esiodavid/lectura-rapida-2412.git/'
+            resValue "string", "fullScopeUrl", 'https://lectura-rapida-2412--lectura-rapida-2412.europe-west4.hosted.app/'
         
 
         

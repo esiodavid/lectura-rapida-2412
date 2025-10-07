@@ -1,0 +1,21 @@
+{
+  "name": "VelozLecto",
+  "short_name": "VLecto",
+  "description": "Tu aplicación de lectura rápida.",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#FFFFFF",
+  "theme_color": "#03A9F4",
+  "icons": [
+    {
+      "src": "/imagen.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/imagen.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
